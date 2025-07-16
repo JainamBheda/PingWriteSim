@@ -29,7 +29,7 @@ public class Main extends JFrame {
         add(tabbedPane);
     }
 
-    // 🛰️ Ping Panel
+    // Ping Panel ha ha ha ha
     private JPanel createPingPanel() {
         JPanel panel = new JPanel(new BorderLayout(10, 10));
         JPanel topPanel = new JPanel(new FlowLayout());
@@ -74,7 +74,7 @@ public class Main extends JFrame {
         return panel;
     }
 
-    // 💻 Java Code Editor Panel
+    // Java Code Editor Panel
     private JPanel createCodeEditorPanel() {
         JPanel panel = new JPanel(new BorderLayout(10, 10));
 
@@ -133,7 +133,7 @@ public class Main extends JFrame {
         }
     }
 
-    // 🔁 ARP Simulator Panel
+    // ARP Simulator Panel
     private JPanel createARPPanel() {
         JPanel panel = new JPanel(new BorderLayout(10, 10));
 
@@ -241,7 +241,7 @@ public class Main extends JFrame {
         return panel;
     }
 
-    // 🎨 Apply Dark Theme
+    // Dark Theme
     private void applyDarkTheme(Component comp) {
         if (comp instanceof JPanel || comp instanceof JScrollPane) {
             comp.setBackground(new Color(40, 44, 52));
@@ -269,7 +269,7 @@ public class Main extends JFrame {
         }
     }
 
-    // 🚀 Main Method
+    //Main Method
     public static void main(String[] args) {
         try {
             UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
